@@ -3,6 +3,10 @@
 This is an example of the binding to the *barcodescanner cordova plugin*. See the
 binding [here](https://github.com/dannywillems/ocaml-cordova-barcodescanner-file)
 
+This is the binding to the gen_js_api binding.
+[Here](https://github.com/dannywillems/ocaml-cordova-plugin-barcodescanner-example/tree/js_of_ocaml)
+the binding with js_of_ocaml.
+
 ## How to compile ?
 
 Read the section 'Using js_of_ocaml to develop in OCaml on mobile' first.
