@@ -62,14 +62,30 @@ Web-based (because they are not just Web apps, but are packaged as apps for
 distribution and have access to native device APIs).
 ```
 
-## Using js_of_ocaml to develop in OCaml on mobile
+## Using js_of_ocaml and gen_js_api to develop in OCaml on mobile
+
+First switch to **compiler >= 4.03.0** because gen_js_api needs it.
 
 js_of_ocaml allows you to compile ml files into javascript files. With this
 compiler, you can use OCaml to develop hybrid mobile application.
 
+Gen_js_api simplifies the development of javascript bindings.
+
 You need to install [ocaml](http://ocaml.org/), [opam](https://opam.ocaml.org/)
 and js_of_ocaml (with opam). You also need to install cordova (see
 [here](https://cordova.apache.org/docs/en/4.0.0/guide/cli/).
+
+First, you need to pin the lwt repository (no official compatibility for the 4.03.0 for
+the moment):
+```Shell
+opam pin add lwt https://github.com/Drup/lwt.git#4.03.0-no-oasis
+```
+
+After that, you can install ppx_tools, js_of_ocaml and gen_js_api.
+
+```Shell
+opam install ppx_tools js_of_ocaml gen_js_api
+```
 
 ## Project structure
 
