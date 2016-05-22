@@ -1,7 +1,7 @@
 # ocaml-cordova-plugin-barcodescanner-example
 
 This is an example of the binding to the *barcodescanner cordova plugin*. See the
-binding [here](https://github.com/dannywillems/ocaml-cordova-barcodescanner-file)
+binding [here](https://github.com/dannywillems/ocaml-cordova-plugin-barcodescanner)
 
 This is the binding to the gen_js_api binding.
 [Here](https://github.com/dannywillems/ocaml-cordova-plugin-barcodescanner-example/tree/js_of_ocaml)
