@@ -1,4 +1,4 @@
-module B = Barcode_scanner
+module B = Cordova_barcode_scanner
 
 let on_device_ready _ =
   let barcode = B.t () in
