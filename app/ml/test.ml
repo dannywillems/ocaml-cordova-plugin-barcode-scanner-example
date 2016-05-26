@@ -7,7 +7,7 @@ let on_device_ready _ =
       fun res ->  Dom_html.window##(alert (Js.string (res#text ^ "\n" ^
                   res#format)))
     )
-    ();
+    ()
 
   (* Crash on a Nexus 5, android 6.0.1 *)
   (*
@@ -18,8 +18,6 @@ let on_device_ready _ =
     (fun err -> Dom_html.window##(alert err))
   );
   *)
-  Js._false
 
 let _ =
-  Dom.addEventListener Dom_html.document (Dom.Event.make "deviceready")
-  (Dom_html.handler on_device_ready) Js._false
+  Cordova.Event.device_ready on_device_ready
