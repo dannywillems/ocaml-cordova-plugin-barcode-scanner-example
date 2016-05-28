@@ -30,6 +30,6 @@ eval `opam config env`
 
 export OCAMLRUNPARAM=b
 
-opam repository add cordova https://github.com/dannywillems/ocaml-cordova-plugin-list.git
+opam repository add cordova https://github.com/dannywillems/ocaml-cordova-plugin-list.git 2> /dev/null
 make init
 make
