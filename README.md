@@ -1,5 +1,7 @@
 # ocaml-cordova-plugin-barcodescanner-example
 
+[![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-barcodescanner-example.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-barcodescanner-example)
+
 This is an example of the binding to the *phonegap-plugin-barcodescanner*. See the
 binding [here](https://github.com/dannywillems/ocaml-cordova-plugin-barcodescanner).
 
